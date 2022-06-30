@@ -1,0 +1,37 @@
+:root{
+    box-sizing: border-box;
+}
+
+*,
+::after,
+::before{
+    box-sizing: inherit;
+}
+
+body{
+    background-color: plum;
+    font-family: "Comic Sans MS",sans-serif;
+}
+
+.portfolio{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+figure {
+    margin: 0;
+}
+
+figure img{
+    max-width: 100%;
+    margin: 0;
+    display: block;
+}
+
+figure figcaption {
+    margin: 0;
+    padding: .3em .8em;
+    text-align: right;
+    background-color: cornflowerblue;
+    color: white;
+}
