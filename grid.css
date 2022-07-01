@@ -9,3 +9,18 @@
     grid-row: span 2;
     grid-column: span 2;
 }
+
+ /* grid dense*/
+
+.portfolio{
+    grid-auto-flow: dense;
+}
+
+figure{
+    display: flex;
+    flex-direction: column;
+}
+figure img {
+    flex: 1;
+    object-fit: cover;
+}
